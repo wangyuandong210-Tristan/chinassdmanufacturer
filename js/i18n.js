@@ -18,10 +18,10 @@
   window.switchLang = function(lang) {
     if (!t[lang]) return;
     setLang(lang);
-    const dict = t[lang];
+    const dict = t[lang] || {}; const fb = t.en || {};
     document.querySelectorAll('[data-i]').forEach(el => {
       const k = el.dataset.i;
-      if (dict[k] !== undefined) el.textContent = dict[k];
+      if (dict[k] !== undefined) el.textContent = dict[k]; else if (fb[k] !== undefined) el.textContent = fb[k];
     });
     // Update active in dropdown
     document.querySelectorAll('.lang-item').forEach(a => a.classList.toggle('active', a.dataset.lang === lang));
@@ -48,3 +48,4 @@
     switchLang(getLang());
   });
 })();
+

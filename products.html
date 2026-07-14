@@ -44,7 +44,7 @@
   </div>
   <div class="grid-3" id="productGrid">
    <div class="product-card" data-cat="nvme">
-    <div class="product-card-image"><span class="badge hot">Hot</span>NVMe</div>
+    <div class="product-card-image"><span class="badge hot">Hot</span><img src="images/nvme-ssd.svg" alt="NVMe SSD" style="width:100%;height:100%;object-fit:contain;padding:10px"></div>
     <div class="product-card-body">
      <h3>ORION E100 NVMe SSD</h3>
      <div class="series">PCIe 4.0 x4</div>
@@ -56,7 +56,7 @@
     </div>
    </div>
    <div class="product-card" data-cat="nvme">
-    <div class="product-card-image"><span class="badge hot">Hot</span>NVMe</div>
+    <div class="product-card-image"><span class="badge hot">Hot</span><img src="images/nvme-ssd.svg" alt="NVMe SSD" style="width:100%;height:100%;object-fit:contain;padding:10px"></div>
     <div class="product-card-body">
      <h3>ORION E200 Pro NVMe SSD</h3>
      <div class="series">PCIe 4.0 x4</div>
@@ -68,7 +68,7 @@
     </div>
    </div>
    <div class="product-card" data-cat="nvme">
-    <div class="product-card-image">NVMe</div>
+    <div class="product-card-image"><img src="images/nvme-ssd.svg" alt="NVMe SSD" style="width:100%;height:100%;object-fit:contain;padding:10px"></div>
     <div class="product-card-body">
      <h3>ORION E300 NVMe SSD</h3>
      <div class="series">PCIe 3.0 x4</div>
@@ -80,7 +80,7 @@
     </div>
    </div>
    <div class="product-card" data-cat="sata">
-    <div class="product-card-image"><span class="badge new">New</span>SATA</div>
+    <div class="product-card-image"><span class="badge new">New</span><img src="images/sata-ssd.svg" alt="SATA SSD" style="width:100%;height:100%;object-fit:contain;padding:10px"></div>
     <div class="product-card-body">
      <h3>ORION S100 SATA SSD</h3>
      <div class="series">2.5" SATA III</div>
@@ -92,7 +92,7 @@
     </div>
    </div>
    <div class="product-card" data-cat="sata">
-    <div class="product-card-image">SATA</div>
+    <div class="product-card-image"><img src="images/sata-ssd.svg" alt="SATA SSD" style="width:100%;height:100%;object-fit:contain;padding:10px"></div>
     <div class="product-card-body">
      <h3>ORION S200 Pro SATA SSD</h3>
      <div class="series">2.5" SATA III</div>
@@ -104,7 +104,7 @@
     </div>
    </div>
    <div class="product-card" data-cat="memory">
-    <div class="product-card-image"><span class="badge new">New</span>DDR5</div>
+    <div class="product-card-image"><span class="badge new">New</span><img src="images/memory.svg" alt="DDR5 Memory" style="width:100%;height:100%;object-fit:contain;padding:10px"></div>
     <div class="product-card-body">
      <h3>ORION DDR5 Memory Module</h3>
      <div class="series">DDR5 Desktop / Laptop</div>
@@ -116,7 +116,7 @@
     </div>
    </div>
    <div class="product-card" data-cat="memory">
-    <div class="product-card-image">DDR4</div>
+    <div class="product-card-image"><img src="images/memory.svg" alt="DDR4 Memory" style="width:100%;height:100%;object-fit:contain;padding:10px"></div>
     <div class="product-card-body">
      <h3>ORION DDR4 Memory Module</h3>
      <div class="series">DDR4 Desktop / Laptop</div>
@@ -128,7 +128,7 @@
     </div>
    </div>
    <div class="product-card" data-cat="industrial">
-    <div class="product-card-image">IND</div>
+    <div class="product-card-image"><img src="images/sata-ssd.svg" alt="Industrial SSD" style="width:100%;height:100%;object-fit:contain;padding:10px"></div>
     <div class="product-card-body">
      <h3>Industrial SATA SSD</h3>
      <div class="series">Wide Temperature (-40C to +85C)</div>
@@ -140,7 +140,7 @@
     </div>
    </div>
    <div class="product-card" data-cat="industrial">
-    <div class="product-card-image">OEM</div>
+    <div class="product-card-image"><img src="images/nvme-ssd.svg" alt="OEM SSD" style="width:100%;height:100%;object-fit:contain;padding:10px"></div>
     <div class="product-card-body">
      <h3>Custom OEM Solutions</h3>
      <div class="series">Your Brand, Your Specs</div>
@@ -167,7 +167,7 @@
  <div class="container">
   <div class="footer-grid">
    <div class="footer-brand">
-    <a href="/" class="logo" style="color:var(--white)"><div class="logo-icon">O</div>ORION<span style="color:var(--primary)">Tech</span></a>
+    <a href="/" class="logo" style="color:var(--white)"><div class="logo-icon">O</div>ORION</a>
     <p>ORION SSD & Memory has been a professional China-based SSD manufacturer with 13+ years of industry experience since 2013.</p>
    </div>
    <div class="footer-column"><h4>Products</h4><ul><li><a href="products.html">NVMe SSD</a></li><li><a href="products.html">SATA SSD</a></li><li><a href="products.html">Memory</a></li><li><a href="odm.html">OEM/ODM</a></li></ul></div>
@@ -188,6 +188,8 @@ function filterProducts(cat){document.querySelectorAll('.category-tab').forEach(
 document.querySelectorAll('.product-card[data-cat]').forEach(c=>c.style.display=cat==='all'||c.dataset.cat===cat?'':'none')}</script>
 </body>
 </html>
+
+
 
 
 

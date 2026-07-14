@@ -1,4 +1,4 @@
-﻿/**
+﻿,de:{"nav_home":"Start","nav_products":"Produkte","nav_about":"Über uns","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Kontakt","nav_quote":"E-Mail","prod_hero":"Unser Sortiment","about_hero":"Über ORION","odm_hero":"OEM/ODM Dienstleistungen","contact_hero":"Kontakt","cta_btn":"E-Mail senden"},nl:{"nav_home":"Home","nav_products":"Producten","nav_about":"Over ons","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact","nav_quote":"E-mail","prod_hero":"Ons assortiment","about_hero":"Over ORION","odm_hero":"OEM/ODM Diensten","contact_hero":"Contact","cta_btn":"E-mail sturen"},it:{"nav_home":"Home","nav_products":"Prodotti","nav_about":"Chi siamo","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contatto","nav_quote":"Email","prod_hero":"I nostri prodotti","about_hero":"Chi siamo","odm_hero":"Servizi OEM/ODM","contact_hero":"Contatto","cta_btn":"Invia email"},/**
  * ORION Multi-Language System v2
  * Hover dropdown, inline translations, no external files
  */
@@ -48,5 +48,6 @@
     switchLang(getLang());
   });
 })();
+
 
 

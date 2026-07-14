@@ -1,15 +1,275 @@
-﻿/**
- * ORION Multi-Language System v2
- * Hover dropdown, inline translations, no external files
+/**
+ * ORION Multi-Language System v3
+ * Hover dropdown, inline translations, pure UTF-8
  */
 (function() {
   const LANG_KEY = 'orion_lang';
+
   const t = {
-    en: {"nav_home":"Home","nav_products":"Products","nav_about":"About Us","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact","nav_quote":"Email Us","hero_badge":"OEM/ODM Manufacturing Partner","hero_title":"Your Trusted OEM Partner for SSD & Memory","hero_desc":"13+ years of OEM/ODM expertise. Custom branding, firmware, and packaging.","hero_quote":"Email Us","hero_products":"OEM Capabilities","section_products":"Product Categories","section_products_t":"Storage Solutions","section_products_d":"SSDs and memory for every need","cat_nvme":"NVMe SSDs","cat_nvme_d":"PCIe 4.0, 256GB-2TB, OEM ready","cat_sata":"SATA SSDs","cat_sata_d":"2.5-inch, 120GB-1.92TB, OEM","cat_memory":"Memory Modules","cat_memory_d":"DDR4/DDR5, desktop & laptop, OEM","cat_odm":"OEM/ODM Services","cat_odm_d":"Custom branding, firmware, packaging","features_t":"Why Partners Choose ORION","feat1_t":"Custom Branding","feat1_d":"Your logo on every drive","feat2_t":"Full OEM/ODM","feat2_d":"Custom PCB, firmware, packaging","stats_t":"By the Numbers","stat1":"13+ Years","stat1_l":"Industry","stat2":"50M+","stat2_l":"Units","stat3":"500+","stat3_l":"Clients","stat4":"10,000m2","stat4_l":"Factory","process_t":"OEM/ODM Process","process1":"Inquiry","process1_d":"Tell us requirements","process2":"Quote","process2_d":"24hr pricing","process3":"Production","process3_d":"Strict QC","process4":"Delivery","process4_d":"Packaging & shipping","cert_t":"Certifications","cert_t2":"Quality & Compliance","cert_d":"Fully certified for global markets","testimonial_t":"What Partners Say","cta_t":"Start Your OEM Project?","cta_d":"Get a quote within 24 hours","cta_btn":"Send Email","stat_years":"13+ Years","stat_years_l":"Industry Experience","stat_units":"50M+","stat_units_l":"Units Shipped","stat_clients":"500+","stat_clients_l":"B2B Partners","stat_countries":"50+","stat_countries_l":"Export Markets","stat1_l":"Industry","stat2_l":"Units","stat3_l":"Clients","stat4_l":"Factory","footer_products":"Products","footer_company":"Company","footer_contact":"Contact","footer_prod1":"NVMe SSDs","footer_prod2":"SATA SSDs","footer_prod3":"Memory","footer_prod4":"Industrial","footer_prod5":"OEM/ODM","footer_about":"About Us","footer_factory":"Factory","footer_cert":"Certifications","footer_blog":"Blog","footer_rights":"All rights reserved"},
-    zh: {"nav_home":"棣栭〉","nav_products":"浜у搧涓績","nav_about":"鍏充簬鎴戜滑","nav_odm":"OEM/ODM","nav_blog":"鍗氬","nav_contact":"鑱旂郴鎴戜滑","nav_quote":"鍙戦€侀偖浠?,"hero_badge":"OEM/ODM鍒堕€犲悎浣滀紮浼?,"hero_title":"鍊煎緱淇¤禆鐨凷SD涓庡唴瀛極EM鍚堜綔浼欎即","hero_desc":"13骞翠互涓奜EM/ODM缁忛獙锛屾敮鎸佸畾鍒跺搧鐗屻€佸浐浠躲€佸寘瑁呫€?,"hero_quote":"鍙戦€侀偖浠?,"hero_products":"OEM鑳藉姏","section_products":"浜у搧绫诲埆","section_products_t":"瀛樺偍瑙ｅ喅鏂规","section_products_d":"婊¤冻鍚勭闇€姹傜殑SSD涓庡唴瀛?,"cat_nvme":"NVMe鍥烘€佺‖鐩?,"cat_nvme_d":"PCIe 4.0锛?56GB-2TB锛孫EM灏辩华","cat_sata":"SATA鍥烘€佺‖鐩?,"cat_sata_d":"2.5鑻卞锛?20GB-1.92TB锛孫EM","cat_memory":"鍐呭瓨妯＄粍","cat_memory_d":"DDR4/DDR5锛屽彴寮忓強绗旇鏈紝OEM","cat_odm":"OEM/ODM鏈嶅姟","cat_odm_d":"瀹氬埗鍝佺墝銆佸浐浠躲€佸寘瑁?,"features_t":"涓轰粈涔堥€夋嫨ORION","feat1_t":"瀹氬埗鍝佺墝","feat1_d":"姣忛纭洏閮芥湁鎮ㄧ殑鍝佺墝","feat2_t":"瀹屾暣OEM/ODM","feat2_d":"瀹氬埗PCB銆佸浐浠躲€佸寘瑁?,"stats_t":"鏁版嵁璇磋瘽","stat1":"13+骞?,"stat1_l":"琛屼笟缁忛獙","stat2":"5000涓?","stat2_l":"鍑鸿揣閲?,"stat3":"500+","stat3_l":"瀹㈡埛","stat4":"1涓噈2","stat4_l":"宸ュ巶","process_t":"OEM/ODM娴佺▼","process1":"闇€姹傛矡閫?,"process1_d":"鍛婅瘔鎴戜滑闇€姹?,"process2":"鎶ヤ环鎵撴牱","process2_d":"24灏忔椂鎶ヤ环","process3":"鎵归噺鐢熶骇","process3_d":"涓ユ牸鍝佹帶","process4":"鐗╂祦浜や粯","process4_d":"鍖呰涓庣墿娴?,"cert_t":"璁よ瘉璧勮川","cert_t2":"璐ㄩ噺涓庡悎瑙?,"cert_d":"鍏ㄧ郴鍒椾骇鍝佽幏寰楀叏鐞冭璇?,"testimonial_t":"鍚堜綔浼欎即璇勪环","cta_t":"寮€濮婳EM椤圭洰锛?,"cta_d":"24灏忔椂鍐呰幏鍙栨姤浠?,"cta_btn":"鍙戦€侀偖浠?,"stat_years":"13+骞?,"stat_years_l":"琛屼笟缁忛獙","stat_units":"5000涓?","stat_units_l":"鍑鸿揣閲?,"stat_clients":"500+","stat_clients_l":"B2B瀹㈡埛","stat_countries":"50+","stat_countries_l":"鍑哄彛甯傚満","footer_products":"浜у搧","footer_company":"鍏徃","footer_contact":"鑱旂郴","footer_prod1":"NVMe鍥烘€佺‖鐩?,"footer_prod2":"SATA鍥烘€佺‖鐩?,"footer_prod3":"鍐呭瓨","footer_prod4":"宸ヤ笟绾?,"footer_prod5":"OEM/ODM","footer_about":"鍏充簬鎴戜滑","footer_factory":"宸ュ巶","footer_cert":"璁よ瘉","footer_blog":"鍗氬","footer_rights":"鐗堟潈鎵€鏈?},
-    es: {"nav_home":"Inicio","nav_products":"Productos","nav_about":"Nosotros","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contacto","nav_quote":"Email","hero_quote":"Email","hero_products":"Capacidades OEM","features_t":"Por qu茅 elegir ORION","cta_t":"驴Listo para su proyecto OEM?","cta_d":"Reciba un presupuesto en 24h","cta_btn":"Enviar Email","footer_products":"Productos","footer_company":"Empresa","footer_contact":"Contacto","footer_about":"Sobre nosotros","footer_blog":"Blog","footer_rights":"Todos los derechos reservados"},
-    fr: {"nav_home":"Accueil","nav_products":"Produits","nav_about":"脌 propos","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact","nav_quote":"Email","hero_quote":"Email","hero_products":"Services OEM","features_t":"Pourquoi ORION","cta_t":"Pr锚t pour votre projet OEM?","cta_d":"Devis sous 24h","cta_btn":"Envoyer un Email","footer_products":"Produits","footer_company":"Soci茅t茅","footer_contact":"Contact","footer_about":"脌 propos","footer_blog":"Blog","footer_rights":"Tous droits r茅serv茅s"},
-    pt: {"nav_home":"In铆cio","nav_products":"Produtos","nav_about":"Sobre","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contato","nav_quote":"Email","hero_quote":"Email","hero_products":"Servi莽os OEM","features_t":"Por que escolher ORION","cta_t":"Pronto para seu projeto OEM?","cta_d":"Or莽amento em 24h","cta_btn":"Enviar Email","footer_products":"Produtos","footer_company":"Empresa","footer_contact":"Contato","footer_about":"Sobre","footer_blog":"Blog","footer_rights":"Todos os direitos reservados"},de:{"nav_home":"Start","nav_products":"Produkte","nav_about":"脺ber uns","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Kontakt","nav_quote":"E-Mail","prod_hero":"Unser Sortiment","about_hero":"脺ber ORION","odm_hero":"OEM/ODM Dienstleistungen","contact_hero":"Kontakt","cta_btn":"E-Mail senden"},nl:{"nav_home":"Home","nav_products":"Producten","nav_about":"Over ons","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact","nav_quote":"E-mail","prod_hero":"Ons assortiment","about_hero":"Over ORION","odm_hero":"OEM/ODM Diensten","contact_hero":"Contact","cta_btn":"E-mail sturen"},it:{"nav_home":"Home","nav_products":"Prodotti","nav_about":"Chi siamo","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contatto","nav_quote":"Email","prod_hero":"I nostri prodotti","about_hero":"Chi siamo","odm_hero":"Servizi OEM/ODM","contact_hero":"Contatto","cta_btn":"Invia email"}
+    en: {
+      "nav_home":"Home","nav_products":"Products","nav_about":"About Us",
+      "nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact",
+      "nav_quote":"Email Us",
+      "hero_badge":"OEM/ODM Manufacturing Partner",
+      "hero_title":"Your Trusted OEM Partner for SSD & Memory",
+      "hero_desc":"13+ years of OEM/ODM expertise. Custom branding, firmware, and packaging.",
+      "hero_quote":"Email Us","hero_products":"OEM Capabilities",
+      "section_products":"Product Categories",
+      "section_products_t":"Comprehensive Storage Solutions",
+      "section_products_d":"From consumer SSDs to industrial-grade memory, we cover all your storage needs",
+      "features_t":"Why OEM/ODM Partners Choose ORION",
+      "cat_nvme":"NVMe SSDs","cat_sata":"SATA SSDs",
+      "cat_memory":"Memory Modules","cat_odm":"OEM/ODM Services",
+      "cat_nvme_d":"PCIe 4.0, 256GB-2TB, OEM ready",
+      "cat_sata_d":"2.5-inch, 120GB-1.92TB, OEM",
+      "cat_memory_d":"DDR4/DDR5, desktop & laptop, OEM",
+      "cat_odm_d":"Custom branding, firmware, packaging",
+      "feat1_t":"Custom Branding","feat1_d":"Your logo on every drive",
+      "feat2_t":"Full OEM/ODM","feat2_d":"Custom PCB, firmware, packaging",
+      "feat3_t":"Black 10-Layer PCB","feat3_d":"Premium quality boards",
+      "feat4_t":"Complete Certification","feat4_d":"CE, FCC, ROHS, REACH",
+      "feat5_t":"Quality Assurance","feat5_d":"100% burn-in test, 3-year warranty",
+      "feat6_t":"Flexible MOQ","feat6_d":"From 100 units",
+      "stat_years":"13+ Years","stat_years_l":"Industry Experience",
+      "stat_units":"50M+","stat_units_l":"Units Shipped",
+      "stat_clients":"500+","stat_clients_l":"B2B Partners",
+      "stat_countries":"50+","stat_countries_l":"Export Markets",
+      "stat1":"13+ Years","stat1_l":"Industry",
+      "stat2":"50M+","stat2_l":"Units","stat3":"500+","stat3_l":"Clients",
+      "stat4":"10,000m2","stat4_l":"Factory",
+      "stats_t":"By the Numbers",
+      "process_t":"OEM/ODM Process",
+      "process1":"Inquiry","process1_d":"Tell us requirements",
+      "process2":"Quote","process2_d":"24hr pricing",
+      "process3":"Production","process3_d":"Strict QC",
+      "process4":"Delivery","process4_d":"Packaging & shipping",
+      "cert_t":"Certifications","cert_t2":"Quality & Compliance",
+      "cert_d":"Fully certified for global markets",
+      "testimonial_t":"What Partners Say",
+      "cta_t":"Ready to Start Your OEM/ODM Project?",
+      "cta_d":"Get a customized quote within 24 hours.",
+      "cta_btn":"Request Quote",
+      "footer_products":"Products","footer_company":"Company",
+      "footer_contact":"Contact",
+      "footer_prod1":"NVMe SSDs","footer_prod2":"SATA SSDs",
+      "footer_prod3":"Memory","footer_prod4":"Industrial",
+      "footer_prod5":"OEM/ODM",
+      "footer_about":"About Us","footer_factory":"Factory",
+      "footer_cert":"Certifications","footer_blog":"Blog",
+      "footer_rights":"All rights reserved"
+    },
+    zh: {
+      "nav_home":"首页","nav_products":"产品中心","nav_about":"关于我们",
+      "nav_odm":"OEM/ODM","nav_blog":"博客","nav_contact":"联系我们",
+      "nav_quote":"发送邮件",
+      "hero_badge":"OEM/ODM制造合作伙伴",
+      "hero_title":"值得信赖的SSD与内存OEM合作伙伴",
+      "hero_desc":"13年以上OEM/ODM经验，支持定制品牌、固件、包装。",
+      "hero_quote":"发送邮件","hero_products":"OEM能力",
+      "section_products":"产品类别",
+      "section_products_t":"全面的存储解决方案",
+      "section_products_d":"从消费级SSD到工业级内存，满足您所有的存储需求",
+      "features_t":"为什么选择ORION",
+      "cat_nvme":"NVMe固态硬盘","cat_sata":"SATA固态硬盘",
+      "cat_memory":"内存模组","cat_odm":"OEM/ODM服务",
+      "cat_nvme_d":"PCIe 4.0，256GB-2TB，OEM就绪",
+      "cat_sata_d":"2.5英寸，120GB-1.92TB，OEM",
+      "cat_memory_d":"DDR4/DDR5，台式及笔记本，OEM",
+      "cat_odm_d":"定制品牌、固件、包装",
+      "feat1_t":"定制品牌","feat1_d":"每颗硬盘都有您的品牌",
+      "feat2_t":"完整OEM/ODM","feat2_d":"定制PCB、固件、包装",
+      "feat3_t":"黑色10层PCB","feat3_d":"优质电路板",
+      "feat4_t":"完整认证","feat4_d":"CE、FCC、ROHS、REACH",
+      "feat5_t":"质量保证","feat5_d":"100%老化测试，3年质保",
+      "feat6_t":"灵活起订量","feat6_d":"100件起订",
+      "stat_years":"13+年","stat_years_l":"行业经验",
+      "stat_units":"5000万+","stat_units_l":"出货量",
+      "stat_clients":"500+","stat_clients_l":"B2B客户",
+      "stat_countries":"50+","stat_countries_l":"出口市场",
+      "stat1":"13+年","stat1_l":"行业经验",
+      "stat2":"5000万+","stat2_l":"出货量",
+      "stat3":"500+","stat3_l":"客户",
+      "stat4":"1万平方米","stat4_l":"工厂面积",
+      "stats_t":"数据说话",
+      "process_t":"OEM/ODM流程",
+      "process1":"需求沟通","process1_d":"告诉我们需求",
+      "process2":"报价打样","process2_d":"24小时报价",
+      "process3":"批量生产","process3_d":"严格品控",
+      "process4":"物流交付","process4_d":"包装与物流",
+      "cert_t":"认证资质","cert_t2":"质量与合规",
+      "cert_d":"全系列产品获得全球认证",
+      "testimonial_t":"合作伙伴评价",
+      "cta_t":"开始OEM项目？",
+      "cta_d":"24小时内获取报价。",
+      "cta_btn":"发送邮件",
+      "footer_products":"产品","footer_company":"公司",
+      "footer_contact":"联系",
+      "footer_prod1":"NVMe固态硬盘","footer_prod2":"SATA固态硬盘",
+      "footer_prod3":"内存","footer_prod4":"工业级",
+      "footer_prod5":"OEM/ODM",
+      "footer_about":"关于我们","footer_factory":"工厂",
+      "footer_cert":"认证","footer_blog":"博客",
+      "footer_rights":"版权所有"
+    },
+    es: {
+      "nav_home":"Inicio","nav_products":"Productos","nav_about":"Nosotros",
+      "nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contacto",
+      "nav_quote":"Correo",
+      "hero_badge":"Socio de Fabricación OEM/ODM",
+      "hero_title":"Su Socio OEM de Confianza para SSD y Memoria",
+      "hero_desc":"Más de 13 años de experiencia OEM/ODM. Marca personalizada, firmware y embalaje.",
+      "hero_quote":"Correo","hero_products":"Capacidades OEM",
+      "section_products":"Categorías de Productos",
+      "section_products_t":"Soluciones Integrales de Almacenamiento",
+      "section_products_d":"Desde SSD de consumo hasta memoria industrial, cubrimos todas sus necesidades",
+      "features_t":"Por qué Elegir ORION",
+      "cat_nvme":"SSD NVMe","cat_sata":"SSD SATA",
+      "cat_memory":"Módulos de Memoria","cat_odm":"Servicios OEM/ODM",
+      "cat_nvme_d":"PCIe 4.0, 256GB-2TB, listo para OEM",
+      "cat_sata_d":"2.5 pulgadas, 120GB-1.92TB, OEM",
+      "cat_memory_d":"DDR4/DDR5, escritorio y portátil, OEM",
+      "cat_odm_d":"Marca, firmware y embalaje personalizados",
+      "feat1_t":"Marca Personalizada","feat1_d":"Su logo en cada unidad",
+      "feat2_t":"OEM/ODM Completo","feat2_d":"PCB, firmware y embalaje personalizados",
+      "feat3_t":"PCB Negro de 10 Capas","feat3_d":"Placas de calidad superior",
+      "feat4_t":"Certificación Completa","feat4_d":"CE, FCC, ROHS, REACH",
+      "feat5_t":"Garantía de Calidad","feat5_d":"Prueba de burn-in 100%, garantía de 3 años",
+      "feat6_t":"MOQ Flexible","feat6_d":"Desde 100 unidades",
+      "stat_years":"13+ Años","stat_years_l":"Experiencia en la Industria",
+      "stat_units":"50M+","stat_units_l":"Unidades Enviadas",
+      "stat_clients":"500+","stat_clients_l":"Socios B2B",
+      "stat_countries":"50+","stat_countries_l":"Mercados de Exportación",
+      "stat1":"13+ Años","stat1_l":"Industria",
+      "stat2":"50M+","stat2_l":"Unidades",
+      "stat3":"500+","stat3_l":"Clientes",
+      "stat4":"10.000m²","stat4_l":"Fábrica",
+      "stats_t":"En Números",
+      "process_t":"Proceso OEM/ODM",
+      "process1":"Consulta","process1_d":"Cuéntenos sus requisitos",
+      "process2":"Cotización","process2_d":"Precios en 24h",
+      "process3":"Producción","process3_d":"Control de calidad estricto",
+      "process4":"Entrega","process4_d":"Embalaje y envío",
+      "cert_t":"Certificaciones","cert_t2":"Calidad y Conformidad",
+      "cert_d":"Totalmente certificado para mercados globales",
+      "testimonial_t":"Lo que Dicen los Socios",
+      "cta_t":"¿Listo para su Proyecto OEM?",
+      "cta_d":"Reciba una cotización en 24 horas.",
+      "cta_btn":"Solicitar Cotización",
+      "footer_products":"Productos","footer_company":"Empresa",
+      "footer_contact":"Contacto",
+      "footer_prod1":"SSD NVMe","footer_prod2":"SSD SATA",
+      "footer_prod3":"Memoria","footer_prod4":"Industrial",
+      "footer_prod5":"OEM/ODM",
+      "footer_about":"Sobre Nosotros","footer_factory":"Fábrica",
+      "footer_cert":"Certificaciones","footer_blog":"Blog",
+      "footer_rights":"Todos los derechos reservados"
+    },
+    fr: {
+      "nav_home":"Accueil","nav_products":"Produits","nav_about":"À propos",
+      "nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact",
+      "nav_quote":"Email",
+      "hero_badge":"Partenaire de Fabrication OEM/ODM",
+      "hero_title":"Votre Partenaire OEM de Confiance pour SSD et Mémoire",
+      "hero_desc":"Plus de 13 ans d'expertise OEM/ODM. Marque personnalisée, firmware et emballage.",
+      "hero_quote":"Email","hero_products":"Services OEM",
+      "section_products":"Catégories de Produits",
+      "section_products_t":"Solutions de Stockage Complètes",
+      "section_products_d":"Des SSD grand public à la mémoire industrielle, nous couvrons tous vos besoins",
+      "features_t":"Pourquoi Choisir ORION",
+      "cat_nvme":"SSD NVMe","cat_sata":"SSD SATA",
+      "cat_memory":"Modules Mémoire","cat_odm":"Services OEM/ODM",
+      "cat_nvme_d":"PCIe 4.0, 256Go-2To, prêt OEM",
+      "cat_sata_d":"2,5 pouces, 120Go-1,92To, OEM",
+      "cat_memory_d":"DDR4/DDR5, bureau et portable, OEM",
+      "cat_odm_d":"Marque, firmware et emballage personnalisés",
+      "feat1_t":"Marque Personnalisée","feat1_d":"Votre logo sur chaque disque",
+      "feat2_t":"OEM/ODM Complet","feat2_d":"PCB, firmware et emballage personnalisés",
+      "feat3_t":"PCB Noir 10 Couches","feat3_d":"Cartes de qualité supérieure",
+      "feat4_t":"Certification Complète","feat4_d":"CE, FCC, ROHS, REACH",
+      "feat5_t":"Assurance Qualité","feat5_d":"Test burn-in 100%, garantie 3 ans",
+      "feat6_t":"MOQ Flexible","feat6_d":"À partir de 100 unités",
+      "stat_years":"13+ Ans","stat_years_l":"Expérience Industrielle",
+      "stat_units":"50M+","stat_units_l":"Unités Expédiées",
+      "stat_clients":"500+","stat_clients_l":"Partenaires B2B",
+      "stat_countries":"50+","stat_countries_l":"Marchés d'Exportation",
+      "stat1":"13+ Ans","stat1_l":"Industrie",
+      "stat2":"50M+","stat2_l":"Unités",
+      "stat3":"500+","stat3_l":"Clients",
+      "stat4":"10.000m²","stat4_l":"Usine",
+      "stats_t":"En Chiffres",
+      "process_t":"Processus OEM/ODM",
+      "process1":"Demande","process1_d":"Indiquez vos besoins",
+      "process2":"Devis","process2_d":"Tarification sous 24h",
+      "process3":"Production","process3_d":"Contrôle qualité strict",
+      "process4":"Livraison","process4_d":"Emballage et expédition",
+      "cert_t":"Certifications","cert_t2":"Qualité et Conformité",
+      "cert_d":"Entièrement certifié pour les marchés mondiaux",
+      "testimonial_t":"Témoignages",
+      "cta_t":"Prêt pour Votre Projet OEM ?",
+      "cta_d":"Recevez un devis sous 24 heures.",
+      "cta_btn":"Demander un Devis",
+      "footer_products":"Produits","footer_company":"Entreprise",
+      "footer_contact":"Contact",
+      "footer_prod1":"SSD NVMe","footer_prod2":"SSD SATA",
+      "footer_prod3":"Mémoire","footer_prod4":"Industriel",
+      "footer_prod5":"OEM/ODM",
+      "footer_about":"À propos","footer_factory":"Usine",
+      "footer_cert":"Certifications","footer_blog":"Blog",
+      "footer_rights":"Tous droits réservés"
+    },
+    pt: {
+      "nav_home":"Início","nav_products":"Produtos","nav_about":"Sobre",
+      "nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contato",
+      "nav_quote":"Email",
+      "hero_badge":"Parceiro de Fabricação OEM/ODM",
+      "hero_title":"Seu Parceiro OEM de Confiança para SSD e Memória",
+      "hero_desc":"Mais de 13 anos de experiência OEM/ODM. Marca personalizada, firmware e embalagem.",
+      "hero_quote":"Email","hero_products":"Capacidades OEM",
+      "section_products":"Categorias de Produtos",
+      "section_products_t":"Soluções Completas de Armazenamento",
+      "section_products_d":"De SSDs de consumo a memória industrial, cobrimos todas as suas necessidades",
+      "features_t":"Por que Escolher ORION",
+      "cat_nvme":"SSD NVMe","cat_sata":"SSD SATA",
+      "cat_memory":"Módulos de Memória","cat_odm":"Serviços OEM/ODM",
+      "cat_nvme_d":"PCIe 4.0, 256GB-2TB, pronto para OEM",
+      "cat_sata_d":"2.5 polegadas, 120GB-1.92TB, OEM",
+      "cat_memory_d":"DDR4/DDR5, desktop e notebook, OEM",
+      "cat_odm_d":"Marca, firmware e embalagem personalizados",
+      "feat1_t":"Marca Personalizada","feat1_d":"Seu logo em cada drive",
+      "feat2_t":"OEM/ODM Completo","feat2_d":"PCB, firmware e embalagem personalizados",
+      "feat3_t":"PCB Preto de 10 Camadas","feat3_d":"Placas de qualidade premium",
+      "feat4_t":"Certificação Completa","feat4_d":"CE, FCC, ROHS, REACH",
+      "feat5_t":"Garantia de Qualidade","feat5_d":"Teste burn-in 100%, garantia de 3 anos",
+      "feat6_t":"MOQ Flexível","feat6_d":"A partir de 100 unidades",
+      "stat_years":"13+ Anos","stat_years_l":"Experiência no Setor",
+      "stat_units":"50M+","stat_units_l":"Unidades Enviadas",
+      "stat_clients":"500+","stat_clients_l":"Parceiros B2B",
+      "stat_countries":"50+","stat_countries_l":"Mercados de Exportação",
+      "stat1":"13+ Anos","stat1_l":"Indústria",
+      "stat2":"50M+","stat2_l":"Unidades",
+      "stat3":"500+","stat3_l":"Clientes",
+      "stat4":"10.000m²","stat4_l":"Fábrica",
+      "stats_t":"Em Números",
+      "process_t":"Processo OEM/ODM",
+      "process1":"Consulta","process1_d":"Conte-nos seus requisitos",
+      "process2":"Cotação","process2_d":"Preços em 24h",
+      "process3":"Produção","process3_d":"Controle de qualidade rigoroso",
+      "process4":"Entrega","process4_d":"Embalagem e envio",
+      "cert_t":"Certificações","cert_t2":"Qualidade e Conformidade",
+      "cert_d":"Totalmente certificado para mercados globais",
+      "testimonial_t":"Depoimentos",
+      "cta_t":"Pronto para seu Projeto OEM?",
+      "cta_d":"Receba uma cotação em 24 horas.",
+      "cta_btn":"Solicitar Cotação",
+      "footer_products":"Produtos","footer_company":"Empresa",
+      "footer_contact":"Contato",
+      "footer_prod1":"SSD NVMe","footer_prod2":"SSD SATA",
+      "footer_prod3":"Memória","footer_prod4":"Industrial",
+      "footer_prod5":"OEM/ODM",
+      "footer_about":"Sobre","footer_factory":"Fábrica",
+      "footer_cert":"Certificações","footer_blog":"Blog",
+      "footer_rights":"Todos os direitos reservados"
+    }
   };
 
   function getLang() { return localStorage.getItem(LANG_KEY) || 'en'; }
@@ -18,35 +278,32 @@
   window.switchLang = function(lang) {
     if (!t[lang]) return;
     setLang(lang);
-    const dict = t[lang];
-    document.querySelectorAll('[data-i]').forEach(el => {
-      const k = el.dataset.i;
+    var dict = t[lang];
+    document.querySelectorAll('[data-i]').forEach(function(el) {
+      var k = el.getAttribute('data-i');
       if (dict[k] !== undefined) el.textContent = dict[k];
     });
-    // Update active in dropdown
-    document.querySelectorAll('.lang-item').forEach(a => a.classList.toggle('active', a.dataset.lang === lang));
+    document.querySelectorAll('.lang-item').forEach(function(a) {
+      a.classList.toggle('active', a.getAttribute('data-lang') === lang);
+    });
   };
 
   document.addEventListener('DOMContentLoaded', function() {
-    const nav = document.querySelector('.nav-menu');
+    var nav = document.querySelector('.nav-menu');
     if (!nav) return;
-    const li = document.createElement('li');
+    var li = document.createElement('li');
     li.style.cssText = 'margin-left:8px';
     li.className = 'lang-hover-wrap';
-    li.innerHTML = '<div class="lang-hover"><button class="lang-btn" onclick="event.stopPropagation()">馃寪</button><div class="lang-dropdown-content">' +
-      '<a class="lang-item" data-lang="en" onclick="switchLang(\'en\')">馃嚞馃嚙 English</a>' +
-      '<a class="lang-item" data-lang="zh" onclick="switchLang(\'zh\')">馃嚚馃嚦 涓枃</a>' +
-      '<a class="lang-item" data-lang="es" onclick="switchLang(\'es\')">馃嚜馃嚫 Espa帽ol</a>' +
-      '<a class="lang-item" data-lang="fr" onclick="switchLang(\'fr\')">馃嚝馃嚪 Fran莽ais</a>' +
-      '<a class="lang-item" data-lang="pt" onclick="switchLang(\'pt\')">馃嚙馃嚪 Portugu锚s</a>' +
-      '<a class="lang-item" data-lang="de" onclick="switchLang(\'de\')">馃嚛馃嚜 Deutsch</a>' +
-      '<a class="lang-item" data-lang="nl" onclick="switchLang(\'nl\')">馃嚦馃嚤 Nederlands</a>' +
-      '<a class="lang-item" data-lang="it" onclick="switchLang(\'it\')">馃嚠馃嚬 Italiano</a>' +
+    li.innerHTML = '<div class="lang-hover">' +
+      '<button class="lang-btn" onclick="event.stopPropagation()">🌐</button>' +
+      '<div class="lang-dropdown-content">' +
+      '<a class="lang-item" data-lang="en" onclick="switchLang(\'en\')">English</a>' +
+      '<a class="lang-item" data-lang="zh" onclick="switchLang(\'zh\')">简体中文</a>' +
+      '<a class="lang-item" data-lang="es" onclick="switchLang(\'es\')">Español</a>' +
+      '<a class="lang-item" data-lang="fr" onclick="switchLang(\'fr\')">Français</a>' +
+      '<a class="lang-item" data-lang="pt" onclick="switchLang(\'pt\')">Português</a>' +
       '</div></div>';
     nav.appendChild(li);
-    // Apply current language
     switchLang(getLang());
   });
-})();,"feat3_t":"Black 10-Layer PCB","feat3_d":"Premium quality boards","feat4_t":"Complete Certification","feat4_d":"CE, FCC, ROHS, REACH","feat5_t":"Quality Assurance","feat5_d":"100% burn-in test, 3-year warranty","feat6_t":"Flexible MOQ","feat6_d":"From 100 units","prod_e100_s":"256GB-2TB, 5000MB/s","prod_e200_s":"512GB-4TB, 7450MB/s","prod_e300_s":"256GB-1TB, Budget","prod_s100_s":"120GB-1.92TB, 550MB/s","prod_s200_s":"480GB-3.84TB, Enterprise","prod_ddr5_s":"8-32GB, DDR5-7200","prod_ddr4_s":"4-32GB, DDR4-3600","prod_ind_s":"32GB-512GB, Industrial","prod_oem_s":"Custom OEM/ODM","about_story_t":"Our Story","about_story1":"Industry since 2013","about_story2":"SSD R&D and manufacturing","about_story3":"Global OEM/ODM partner","odm_white_label":"White label OEM","odm_custom":"Custom ODM design","odm_joint":"Joint development"}
-
-
+})();

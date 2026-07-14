@@ -1,4 +1,4 @@
-{
+﻿{
   "nav_home": "Inicio",
   "nav_products": "Productos",
   "nav_about": "Nosotros",
@@ -30,4 +30,6 @@
   "footer_products": "Productos",
   "footer_company": "Empresa",
   "footer_contact": "Contacto"
+}
+,"cat_nvme":"NVMe SSDs","cat_nvme_d":"PCIe 4.0, 256GB-2TB, OEM","cat_sata":"SATA SSDs","cat_sata_d":"2.5-inch, 120GB-1.92TB, OEM","cat_memory":"Memory Modules","cat_memory_d":"DDR4/DDR5, desktop & laptop, OEM","feat1_t":"Custom Branding","feat1_d":"Your logo on every drive","feat2_t":"OEM/ODM Service","feat2_d":"Custom PCB, firmware, packaging","stat1":"13+ Years","stat1_l":"Industry Experience","stat2":"50M+","stat2_l":"Units Shipped","stat3":"500+","stat3_l":"B2B Clients","stat4":"10,000m2","stat4_l":"Factory","process1":"Inquiry","process1_d":"Tell us requirements","process2":"Quote","process2_d":"Pricing within 24hrs","process3":"Production","process3_d":"Mass production with QC","process4":"Delivery","process4_d":"Professional packaging","footer_prod3":"Memory Modules","footer_prod4":"Industrial SSDs","footer_prod5":"OEM/ODM Services","footer_about":"About Us","footer_factory":"Factory Tour","footer_cert":"Certifications","footer_blog":"Blog","footer_rights":"All rights reserved","cta_btn":"Send Email"
 }

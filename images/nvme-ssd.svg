@@ -1,1 +1,24 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8fafc"/><stop offset="100%" stop-color="#e2e8f0"/></linearGradient><linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a365d"/><stop offset="100%" stop-color="#0f2440"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#b8860b"/></linearGradient></defs><rect width="400" height="280" rx="12" fill="url(#bg)"/><rect x="30" y="70" width="340" height="100" rx="4" fill="url(#pcb)"/><rect x="30" y="70" width="340" height="22" rx="4" fill="url(#gold)"/><text x="200" y="85" font-family="Arial" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="2">ORION E100 NVMe SSD</text><rect x="50" y="100" width="50" height="55" rx="3" fill="#0d1f33"/><text x="75" y="133" font-size="7" fill="#6b8cae" text-anchor="middle">CTRL</text><rect x="115" y="100" width="75" height="55" rx="3" fill="#0d1f33"/><text x="152" y="133" font-size="7" fill="#6b8cae" text-anchor="middle">NAND</text><rect x="205" y="100" width="75" height="55" rx="3" fill="#0d1f33"/><text x="242" y="133" font-size="7" fill="#6b8cae" text-anchor="middle">NAND</text><rect x="295" y="100" width="60" height="55" rx="3" fill="#0d1f33"/><text x="325" y="133" font-size="7" fill="#6b8cae" text-anchor="middle">NAND</text><rect x="30" y="185" width="340" height="1" fill="#cbd5e1"/><text x="200" y="205" font-size="11" font-weight="bold" fill="#1a365d" text-anchor="middle">M.2 2280 | PCIe 4.0 x4</text><text x="200" y="222" font-size="10" fill="#6b7280" text-anchor="middle">Read: 7,000MB/s | Write: 6,000MB/s</text><text x="200" y="239" font-size="10" fill="#6b7280" text-anchor="middle">256GB - 2TB | 3-Year Warranty</text></svg>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs>
+<linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8fafc"/><stop offset="100%" stop-color="#e2e8f0"/></linearGradient>
+<linearGradient id="pcb2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0a3d15"/><stop offset="100%" stop-color="#06220b"/></linearGradient>
+<linearGradient id="gld" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#c9a96e"/><stop offset="100%" stop-color="#a08020"/></linearGradient>
+</defs>
+<rect width="400" height="300" rx="12" fill="url(#bg2)"/>
+<text x="200" y="35" font-family="Arial" font-size="16" font-weight="bold" fill="#1a365d" text-anchor="middle">ORION E100 NVMe SSD</text>
+<text x="200" y="55" font-family="Arial" font-size="11" fill="#6b7280" text-anchor="middle">M.2 2280 Form Factor</text>
+<rect x="20" y="75" width="360" height="100" rx="4" fill="url(#pcb2)"/>
+<rect x="20" y="175" width="360" height="3" fill="#0a3d15"/>
+<rect x="20" y="75" width="45" height="100" rx="4" fill="#d4a800"/>
+<rect x="20" y="75" width="360" height="20" rx="4" fill="url(#gld)"/>
+<text x="200" y="89" font-family="Arial" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="3">ORION</text>
+<rect x="80" y="102" width="55" height="60" rx="2" fill="#082015"/><text x="107" y="135" font-family="Arial" font-size="7" fill="#4a9a5a" text-anchor="middle">CTRL<br/>SM2268</text>
+<rect x="145" y="102" width="65" height="60" rx="2" fill="#082015"/><text x="177" y="135" font-family="Arial" font-size="7" fill="#4a9a5a" text-anchor="middle">NAND<br/>TLC</text>
+<rect x="220" y="102" width="65" height="60" rx="2" fill="#082015"/><text x="252" y="135" font-family="Arial" font-size="7" fill="#4a9a5a" text-anchor="middle">NAND<br/>TLC</text>
+<rect x="295" y="102" width="60" height="60" rx="2" fill="#082015"/><text x="325" y="135" font-family="Arial" font-size="7" fill="#4a9a5a" text-anchor="middle">DRAM<br/>Cache</text>
+<rect x="20" y="190" width="360" height="1" fill="#cbd5e1"/>
+<text x="200" y="210" font-family="Arial" font-size="12" font-weight="bold" fill="#1a365d" text-anchor="middle">PCIe 4.0 x4 NVMe</text>
+<text x="200" y="228" font-family="Arial" font-size="10" fill="#6b7280" text-anchor="middle">Sequential Read: Up to 7,000 MB/s | Write: Up to 6,000 MB/s</text>
+<text x="200" y="245" font-family="Arial" font-size="10" fill="#6b7280" text-anchor="middle">Capacities: 256GB / 512GB / 1TB / 2TB</text>
+<rect x="100" y="260" width="200" height="28" rx="14" fill="#1a365d"/><text x="200" y="279" font-family="Arial" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">Inquire About OEM Pricing</text>
+</svg>

@@ -1,4 +1,12 @@
-﻿.lang-dropdown{position:relative;display:inline-block}.lang-dropbtn{background:none;border:1px solid var(--gray-300);border-radius:6px;padding:4px 8px;cursor:pointer;font-size:18px;line-height:1;color:var(--gray-500);transition:var(--transition)}.lang-dropbtn:hover{border-color:var(--accent)}.lang-dropdown-content{display:none;position:absolute;top:100%;right:0;margin-top:4px;background:var(--white);border:1px solid var(--gray-200);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,0.12);min-width:140px;z-index:999;overflow:hidden}.lang-dropdown.open .lang-dropdown-content{display:block}.lang-item{display:block;padding:8px 14px;font-size:13px;color:var(--gray-700);text-decoration:none;cursor:pointer;transition:var(--transition);border-bottom:1px solid var(--gray-100)}.lang-item:last-child{border-bottom:none}.lang-item:hover{background:var(--primary-light);color:var(--primary)}.lang-item.active{background:var(--primary-light);color:var(--primary);font-weight:600}.lang-btn:hover{color:var(--primary);background:var(--primary-light)}/* CSS Reset & Variables */
+﻿.lang-hover-wrap{margin-left:8px;list-style:none}
+.lang-hover{position:relative;display:inline-block}
+.lang-btn{background:none;border:1px solid var(--gray-300);border-radius:6px;padding:4px 8px;cursor:default;font-size:18px;line-height:1;transition:var(--transition)}
+.lang-btn:hover{border-color:var(--accent)}
+.lang-hover .lang-dropdown-content{display:none;position:absolute;top:100%;right:-10px;margin-top:6px;background:var(--white);border:1px solid var(--gray-200);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,0.15);min-width:165px;z-index:999;overflow:hidden;padding:4px 0}
+.lang-hover:hover .lang-dropdown-content{display:block}
+.lang-item{display:block;padding:8px 16px;font-size:13px;color:var(--gray-700);text-decoration:none;cursor:pointer;transition:var(--transition);white-space:nowrap}
+.lang-item:hover{background:var(--primary-light);color:var(--primary)}
+.lang-item.active{background:var(--primary-light);color:var(--primary);font-weight:600}.lang-dropbtn:hover{border-color:var(--accent)}.lang-dropdown.open .lang-btn:hover{color:var(--primary);background:var(--primary-light)}/* CSS Reset & Variables */
 :root{--primary:#1a365d;--primary-dark:#0f2440;--primary-light:#ebf4ff;--accent:#c9a96e;--accent-hover:#b8860b;--dark:#0a1628;--oreton-red:#ab123d;--oreton-red-light:rgba(171,18,61,0.08);--oreton-red-dark:#8a0e31;--gray-50:#f8f9fa;--gray-100:#f1f3f5;--gray-200:#e9ecef;--gray-300:#dee2e6;--gray-400:#ced4da;--gray-500:#adb5bd;--gray-600:#6c757d;--gray-700:#495057;--gray-800:#343a40;--gray-900:#212529;--white:#ffffff;--success:#2d6a4f;--radius:8px;--radius-lg:16px;--shadow:0 2px 16px rgba(0,0,0,0.08);--shadow-lg:0 8px 40px rgba(0,0,0,0.12);--shadow-xl:0 16px 48px rgba(0,0,0,0.15);--transition:0.25s ease;--max-width:1200px}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -196,6 +204,7 @@ footer a:hover{color:var(--accent)!important}
 .page-hero-accent{background:linear-gradient(135deg,var(--oreton-red),var(--oreton-red-dark));color:var(--white)}.page-hero-accent h1,.page-hero-accent p{color:var(--white)}
 
 @media(max-width:768px){.news-grid{grid-template-columns:1fr}.contact-form .form-row{grid-template-columns:1fr}.newsletter-box .nl-form{flex-direction:column}}
+
 
 
 

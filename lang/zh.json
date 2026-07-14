@@ -1,6 +1,6 @@
 ﻿{
   "header":"ORION SSD & Memory",
-  "nav_home":"首页","nav_products":"产品中心","nav_about":"关于我们","nav_odm":"OEM/ODM","nav_blog":"博客","nav_contact":"联系我们","nav_quote":"获取报价",
+  "nav_home":"首页","nav_products":"产品中心","nav_about":"关于我们","nav_odm":"OEM/ODM","nav_blog":"博客","nav_contact":"联系我们","nav_quote":"Email Us",
   "hero_badge":"OEM/ODM 制造合作伙伴",
   "hero_title":"您值得信赖的SSD与内存OEM合作伙伴",
   "hero_desc":"13年以上OEM/ODM专业经验，助您打造自有SSD与内存品牌，提供定制品牌、固件、包装一站式解决方案。",
@@ -23,10 +23,11 @@
   "process_t":"OEM/ODM流程","process1":"需求沟通","process1_d":"告诉我们您的需求","process2":"报价打样","process2_d":"24小时内提供报价","process3":"批量生产","process3_d":"量产严格品控","process4":"物流交付","process4_d":"专业包装物流",
   "cert_t":"认证资质","cert_t2":"质量与合规","cert_d":"全系列产品获得全球市场认证",
   "testimonial_t":"合作伙伴评价",
-  "cta_t":"Ready to Start Your OEM/ODM Project?","cta_d":"Get a customized quote within 24 hours. Free samples for qualified buyers.","cta_btn":"Get a Quote","cta_wa":"WhatsApp Us",
+  "cta_t":"Ready to Start Your OEM/ODM Project?","cta_d":"Get a customized quote within 24 hours. Free samples for qualified buyers.","cta_btn":"Send Email","cta_wa":"",
   "footer_desc":"自2013年起专业从事SSD与内存模组OEM/ODM制造。定制品牌、黑色10层PCB、CE/FCC/ROHS认证。",
   "footer_products":"产品","footer_company":"公司","footer_contact":"联系","footer_prod1":"NVMe固态硬盘","footer_prod2":"SATA固态硬盘","footer_prod3":"内存模组","footer_prod4":"工业级SSD","footer_prod5":"OEM/ODM服务",
   "footer_about":"关于我们","footer_factory":"工厂参观","footer_cert":"认证资质","footer_blog":"博客",
   "footer_rights":"版权所有。",
   "lang_en":"English","lang_zh":"中文","lang_es":"Español","lang_fr":"Français","lang_pt":"Português"
 }
+

@@ -1,6 +1,6 @@
 ﻿{
   "header":"ORION SSD & Memory",
-  "nav_home":"Home","nav_products":"Products","nav_about":"About Us","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact","nav_quote":"Get Quote",
+  "nav_home":"Home","nav_products":"Products","nav_about":"About Us","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact","nav_quote":"Email Us",
   "hero_badge":"OEM/ODM Manufacturing Partner",
   "hero_title":"Your Trusted OEM Partner for SSD & Memory",
   "hero_desc":"13+ years of OEM/ODM expertise. We help businesses launch their own SSD and memory brands with custom branding, firmware, and packaging solutions.",
@@ -23,10 +23,11 @@
   "process_t":"OEM/ODM Process","process1":"Inquiry","process1_d":"Tell us your requirements","process2":"Quote","process2_d":"Competitive pricing within 24hrs","process3":"Production","process3_d":"Mass production with strict QC","process4":"Delivery","process4_d":"Professional packaging & shipping",
   "cert_t":"Certifications","cert_t2":"Quality & Compliance","cert_d":"All products certified for global markets",
   "testimonial_t":"What Partners Say",
-  "cta_t":"Ready to Start Your OEM/ODM Project?","cta_d":"Get a customized quote within 24 hours. Free samples for qualified buyers.","cta_btn":"Get a Quote","cta_wa":"WhatsApp Us",
+  "cta_t":"Ready to Start Your OEM/ODM Project?","cta_d":"Get a customized quote within 24 hours. Free samples for qualified buyers.","cta_btn":"Send Email","cta_wa":"",
   "footer_desc":"A professional SSD and memory module OEM/ODM manufacturer since 2013. Custom branding, black 10-layer PCB, CE/FCC/ROHS certified.",
   "footer_products":"Products","footer_company":"Company","footer_contact":"Contact","footer_prod1":"NVMe SSDs","footer_prod2":"SATA SSDs","footer_prod3":"Memory Modules","footer_prod4":"Industrial SSDs","footer_prod5":"OEM/ODM Services",
   "footer_about":"About Us","footer_factory":"Factory Tour","footer_cert":"Certifications","footer_blog":"Blog",
   "footer_rights":"All rights reserved.",
   "lang_en":"English","lang_zh":"中文","lang_es":"Español","lang_fr":"Français","lang_pt":"Português"
 }
+

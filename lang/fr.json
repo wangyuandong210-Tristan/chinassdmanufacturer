@@ -1,6 +1,6 @@
 ﻿{
   "header":"ORION SSD & Memory",
-  "nav_home":"Accueil","nav_products":"Produits","nav_about":"\u00c0 propos","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact","nav_quote":"Devis",
+  "nav_home":"Accueil","nav_products":"Produits","nav_about":"\u00c0 propos","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact","nav_quote":"Email Us",
   "hero_badge":"OEM/ODM Manufacturing Partner",
   "hero_title":"Votre Partenaire OEM SSD & M\u00e9moire",
   "hero_desc":"M\u00e1s de 13 a\u00f1os de experiencia OEM/ODM. Ayudamos a empresas a lanzar sus propias marcas SSD.",
@@ -23,11 +23,12 @@
   "process_t":"OEM/ODM Process","process1":"Inquiry","process1_d":"Tell us your requirements","process2":"Quote","process2_d":"Competitive pricing within 24hrs","process3":"Production","process3_d":"Mass production with strict QC","process4":"Delivery","process4_d":"Professional packaging & shipping",
   "cert_t":"Certifications","cert_t2":"Quality & Compliance","cert_d":"All products certified for global markets",
   "testimonial_t":"What Partners Say",
-  "cta_t":"Ready to Start Your OEM/ODM Project?","cta_d":"Obtenga una cotizaci\u00f3n personalizada en 24 horas.","cta_btn":"Solicitar Cotizaci\u00f3n","cta_wa":"WhatsApp",
+  "cta_t":"Ready to Start Your OEM/ODM Project?","cta_d":"Obtenga una cotizaci\u00f3n personalizada en 24 horas.","cta_btn":"Send Email","cta_wa":"",
   "footer_desc":"A professional SSD and memory module OEM/ODM manufacturer since 2013. Custom branding, black 10-layer PCB, CE/FCC/ROHS certified.",
   "footer_products":"Products","footer_company":"Company","footer_contact":"Contact","footer_prod1":"NVMe SSDs","footer_prod2":"SATA SSDs","footer_prod3":"Memory Modules","footer_prod4":"Industrial SSDs","footer_prod5":"OEM/ODM Services",
   "footer_about":"About Us","footer_factory":"Factory Tour","footer_cert":"Certifications","footer_blog":"Blog",
   "footer_rights":"All rights reserved.",
   "lang_en":"English","lang_zh":"中文","lang_es":"Español","lang_fr":"Français","lang_pt":"Português"
 }
+
 

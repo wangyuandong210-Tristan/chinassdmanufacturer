@@ -19,7 +19,7 @@
     <li><a href="odm.html">OEM/ODM</a></li>
     <li><a href="blog/index.html">Blog</a></li>
     <li><a href="contact.html">Contact</a></li>
-    <li class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">Get Quote</a></li>
+    
    </ul>
   </nav>
   <button class="mobile-toggle" onclick="document.getElementById('navMenu').classList.toggle('open')"><span></span><span></span><span></span></button>
@@ -159,7 +159,7 @@
  <div class="container">
   <h2 class="heading-1">Need a Custom Product?</h2>
   <p>We offer full OEM/ODM services. Get in touch with your requirements.</p>
-  <a href="contact.html" class="btn btn-white btn-lg">Contact Sales Team</a>
+  <a href="mailto:1073703112@qq.com" class="btn btn-white btn-lg">Contact Sales Team</a>
  </div>
 </section>
 
@@ -178,16 +178,13 @@
  </div>
 </footer>
 
-<div class="whatsapp-float">
- <span class="whatsapp-tooltip">Chat on WhatsApp</span>
- <a href="https://wa.me/8615683052138" target="_blank" class="whatsapp-btn">W</a>
-</div>
-
 <script>document.addEventListener('scroll',function(){document.querySelector('.site-header').classList.toggle('scrolled',window.scrollY>40)});
 function filterProducts(cat){document.querySelectorAll('.category-tab').forEach(t=>t.classList.toggle('active',t.textContent.includes('All')&&cat==='all'||t.getAttribute('onclick').includes(cat)));
 document.querySelectorAll('.product-card[data-cat]').forEach(c=>c.style.display=cat==='all'||c.dataset.cat===cat?'':'none')}</script>
 </body>
 </html>
+
+
 
 
 

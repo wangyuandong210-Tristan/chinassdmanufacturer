@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ORION SSD & Memory - Multi-language Switch (i18n)
  * Loads translations from lang/ directory and updates [data-i] elements.
  */
@@ -6,7 +6,7 @@
   'use strict';
 
   var supportedLangs = ['en', 'zh', 'es', 'fr', 'pt'];
-  var langLabels = { en: 'EN', zh: '中文', es: 'ES', fr: 'FR', pt: 'PT' };
+  var langLabels = { en: 'EN', zh: '涓枃', es: 'ES', fr: 'FR', pt: 'PT' };
   var defaultLang = 'en';
   var translations = {};
   var currentLang = defaultLang;
@@ -30,7 +30,7 @@
     var depth = (dir.match(/\//g) || []).length;
     var prefix = '';
     for (var i = 1; i < depth; i++) { prefix += '../'; }
-    return prefix + 'lang/';
+    return prefix + '/lang/';
   }
 
   // Load JSON translation file
@@ -142,3 +142,4 @@
     getCurrentLang: function() { return currentLang; }
   };
 })();
+

@@ -1,10 +1,10 @@
 ﻿{
   "header":"ORION SSD & Memory",
-  "nav_home":"Home","nav_products":"Products","nav_about":"About Us","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contact","nav_quote":"Get Quote",
+  "nav_home":"In\u00edcio","nav_products":"Produtos","nav_about":"Sobre","nav_odm":"OEM/ODM","nav_blog":"Blog","nav_contact":"Contato","nav_quote":"Or\u00e7amento",
   "hero_badge":"OEM/ODM Manufacturing Partner",
-  "hero_title":"Your Trusted OEM Partner for SSD & Memory",
-  "hero_desc":"13+ years of OEM/ODM expertise. We help businesses launch their own SSD and memory brands with custom branding, firmware, and packaging solutions.",
-  "hero_quote":"Request Quote","hero_products":"OEM Capabilities",
+  "hero_title":"Seu Parceiro OEM para SSD e Mem\u00f3ria",
+  "hero_desc":"M\u00e1s de 13 a\u00f1os de experiencia OEM/ODM. Ayudamos a empresas a lanzar sus propias marcas SSD.",
+  "hero_quote":"Request Quote","hero_products":"Servi\u00e7os OEM",
   "stat_years":"13+ Years","stat_units":"50M+ Units","stat_clients":"500+ Clients","stat_countries":"50+ Countries",
   "stat_years_l":"Industry Experience","stat_units_l":"Shipped","stat_clients_l":"B2B Partners","stat_countries_l":"Export Markets",
   "section_products":"Product Categories","section_products_t":"Comprehensive Storage Solutions","section_products_d":"From consumer SSDs to industrial memory",
@@ -23,10 +23,11 @@
   "process_t":"OEM/ODM Process","process1":"Inquiry","process1_d":"Tell us your requirements","process2":"Quote","process2_d":"Competitive pricing within 24hrs","process3":"Production","process3_d":"Mass production with strict QC","process4":"Delivery","process4_d":"Professional packaging & shipping",
   "cert_t":"Certifications","cert_t2":"Quality & Compliance","cert_d":"All products certified for global markets",
   "testimonial_t":"What Partners Say",
-  "cta_t":"Ready to Start Your OEM/ODM Project?","cta_d":"Get a customized quote within 24 hours. Free samples for qualified buyers.","cta_btn":"Get a Quote","cta_wa":"WhatsApp Us",
+  "cta_t":"Ready to Start Your OEM/ODM Project?","cta_d":"Obtenga una cotizaci\u00f3n personalizada en 24 horas.","cta_btn":"Solicitar Cotizaci\u00f3n","cta_wa":"WhatsApp",
   "footer_desc":"A professional SSD and memory module OEM/ODM manufacturer since 2013. Custom branding, black 10-layer PCB, CE/FCC/ROHS certified.",
   "footer_products":"Products","footer_company":"Company","footer_contact":"Contact","footer_prod1":"NVMe SSDs","footer_prod2":"SATA SSDs","footer_prod3":"Memory Modules","footer_prod4":"Industrial SSDs","footer_prod5":"OEM/ODM Services",
   "footer_about":"About Us","footer_factory":"Factory Tour","footer_cert":"Certifications","footer_blog":"Blog",
   "footer_rights":"All rights reserved.",
-  "lang_":"Português","lang_zh":"中文","lang_es":"Español","lang_fr":"Français","lang_pt":"Português"
+  "lang_en":"English","lang_zh":"中文","lang_es":"Español","lang_fr":"Français","lang_pt":"Português"
 }
+

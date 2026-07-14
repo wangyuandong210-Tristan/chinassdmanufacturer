@@ -12,19 +12,19 @@
  <div class="header-inner">
   <a href="/" class="logo"><img src="images/orion-logo.svg" alt="ORION" style="height:40px"></a>
   <nav><ul class="nav-menu" id="navMenu">
-   <li><a href="index.html">Home</a></li>
+   <li><a href="index.html" data-i="nav_home">Home</a></li>
    <li class="nav-dropdown">
-    <a href="products.html">Products</a>
+    <a href="products.html" data-i="nav_products">Products</a>
     <ul class="dropdown-menu">
      <li><a href="products.html?cat=nvme">NVMe SSD</a></li>
      <li><a href="products.html?cat=sata">SATA SSD</a></li>
      <li><a href="products.html?cat=memory">Memory Modules</a></li>
      <li><a href="products.html?cat=industrial">Industrial SSD</a></li>
-     <li><a href="odm.html">OEM/ODM</a></li>
+     <li><a href="odm.html" data-i="nav_odm">OEM/ODM</a></li>
     </ul>
    </li>
-   <li><a href="about.html" class="active">About Us</a></li><li><a href="odm.html">OEM/ODM</a></li>
-   <li><a href="blog/index.html">Blog</a></li><li><a href="contact.html">Contact</a></li>
+   <li><a href="about.html" class="active" data-i="nav_about">About Us</a></li><li><a href="odm.html" data-i="nav_odm">OEM/ODM</a></li>
+   <li><a href="blog/index.html" data-i="nav_blog">Blog</a></li><li><a href="contact.html" data-i="nav_contact">Contact</a></li>
    <li class="nav-cta"><a href="contact.html" class="btn btn-sm" style="background:var(--oreton-red);color:var(--white);font-weight:600">Request Quote</a></li>
   </ul></nav>
   <div class="nav-lang" id="langSelector"></div>
@@ -34,8 +34,8 @@
 
 <section class="page-hero">
  <div class="container">
-  <h1 class="display-2">About ORION SSD & Memory</h1>
-  <p class="body-lg">Your trusted partner in SSD and memory manufacturing since 2013</p>
+  <h1 class="display-2" data-i="about_hero">About ORION SSD &amp; Memory</h1>
+  <p class="body-lg">data-i="about_hero_desc">Your trusted partner in SSD and memory manufacturing since 2013</p>
  </div>
 </section>
 
@@ -143,7 +143,7 @@
  <div class="container">
   <h2 class="heading-1">Visit Our Factory</h2>
   <p>We welcome B2B partners to visit our factory in Shenzhen. See our production lines and quality control in person.</p>
-  <a href="mailto:1073703112@qq.com" class="btn btn-white btn-lg">Email Us</a>
+  <a href="mailto:1073703112@qq.com" class="btn btn-white btn-lg" data-i="cta_btn">Email Us</a>
  </div>
 </section>
 
@@ -177,8 +177,8 @@
      <li><a href="about.html#factory">Factory Tour</a></li>
      <li><a href="downloads.html">Downloads</a></li>
      <li><a href="faq.html">FAQ</a></li>
-     <li><a href="blog/index.html">Blog</a></li>
-     <li><a href="contact.html">Contact</a></li>
+     <li><a href="blog/index.html" data-i="nav_blog">Blog</a></li>
+     <li><a href="contact.html" data-i="nav_contact">Contact</a></li>
     </ul>
    </div>
    <div class="footer-column">
@@ -207,5 +207,6 @@
 <script src="js/i18n.js"></script>
 </body>
 </html>
+
 
 

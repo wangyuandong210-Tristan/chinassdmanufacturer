@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -12,11 +12,22 @@
  <div class="header-inner">
   <a href="/" class="logo"><img src="images/orion-logo.svg" alt="ORION" style="height:40px"></a>
   <nav><ul class="nav-menu" id="navMenu">
-   <li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li>
+   <li><a href="index.html">Home</a></li>
+   <li class="nav-dropdown">
+    <a href="products.html">Products</a>
+    <ul class="dropdown-menu">
+     <li><a href="products.html?cat=nvme">NVMe SSD</a></li>
+     <li><a href="products.html?cat=sata">SATA SSD</a></li>
+     <li><a href="products.html?cat=memory">Memory Modules</a></li>
+     <li><a href="products.html?cat=industrial">Industrial SSD</a></li>
+     <li><a href="odm.html">OEM/ODM</a></li>
+    </ul>
+   </li>
    <li><a href="about.html">About Us</a></li><li><a href="odm.html" class="active">OEM/ODM</a></li>
    <li><a href="blog/index.html">Blog</a></li><li><a href="contact.html">Contact</a></li>
-   
+   <li class="nav-cta"><a href="contact.html" class="btn btn-sm" style="background:var(--oreton-red);color:var(--white);font-weight:600">Request Quote</a></li>
   </ul></nav>
+  <div class="nav-lang" id="langSelector"></div>
   <button class="mobile-toggle" onclick="document.getElementById('navMenu').classList.toggle('open')"><span></span><span></span><span></span></button>
  </div>
 </header>
@@ -96,7 +107,6 @@
   <p>Send us your requirements and we'll get back to you within 24 hours with a customized proposal.</p>
   <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
    <a href="mailto:1073703112@qq.com" class="btn btn-white btn-lg">Submit Inquiry</a>
-   
   </div>
  </div>
 </section>
@@ -128,7 +138,8 @@
     <ul>
      <li><a href="about.html">About Us</a></li>
      <li><a href="about.html#factory">Factory Tour</a></li>
-     <li><a href="about.html#cert">Certifications</a></li>
+     <li><a href="downloads.html">Downloads</a></li>
+     <li><a href="faq.html">FAQ</a></li>
      <li><a href="blog/index.html">Blog</a></li>
      <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -141,34 +152,26 @@
      <li><span class="fc-icon">L</span> Building 1, Qixin Tech Park, No.18 Jinxiu Middle Road, Pingshan, Shenzhen, China</li>
      <li><span class="fc-icon">T</span> Mon-Fri 9:00-18:00 (CST)</li>
     </ul>
+    <div class="newsletter-box">
+     <h4>Newsletter Subscribe</h4>
+     <p>Get product updates and industry insights.</p>
+     <form class="nl-form" onsubmit="event.preventDefault();alert('Thank you for subscribing!');">
+      <input type="email" class="nl-input" placeholder="Your email address" required>
+      <button type="submit" class="nl-btn">Subscribe</button>
+     </form>
+    </div>
    </div>
   </div>
   <div class="footer-bottom">Copyright 2026 ORION SSD & Memory. All rights reserved. China SSD Manufacturer.</div>
  </div>
 </footer>
 
-<script>document.addEventListener('scroll',function(){document.querySelector('.site-header').classList.toggle('scrolled',window.scrollY>40)})</script>
-</body>
+<div class="whatsapp-float">
+ <a href="https://wa.me/8615683052138" target="_blank" class="whatsapp-btn" aria-label="WhatsApp">W</a>
+ <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+</div>
 
-<div <script>document.addEventListener('scroll',function(){document.querySelector('.site-header').classList.toggle('scrolled',window.scrollY>40)})</script>
-
 <script>document.addEventListener('scroll',function(){document.querySelector('.site-header').classList.toggle('scrolled',window.scrollY>40)})</script>
+<script src="js/i18n.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

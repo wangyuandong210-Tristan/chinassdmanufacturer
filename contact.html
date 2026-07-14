@@ -43,39 +43,55 @@
  <div class="container">
   <div class="grid-2" style="gap:48px">
    <div>
-    <span class="section-label">Send Us a Message</span>
-    <h2 class="heading-2" style="margin-bottom:20px">Get in Touch</h2>
-    <form class="contact-form" onsubmit="var n=this.name.value,e=this.email.value,c=this.company.value,m=this.message.value;window.location.href='mailto:1073703112@qq.com?subject=Inquiry from '+encodeURIComponent(n)+' - '+encodeURIComponent(c)+'&body='+encodeURIComponent('Name: '+n+'\nCompany: '+c+'\nEmail: '+e+'\n\n'+m);return false;">
-     <div class="form-row">
-      <div class="form-group">
-       <label class="form-label">Name *</label>
-       <input type="text" class="form-control" name="name" placeholder="Your name" required>
-      </div>
-      <div class="form-group">
-       <label class="form-label">Email *</label>
-       <input type="email" class="form-control" name="email" placeholder="Your email" required>
-      </div>
-     </div>
-     <div class="form-group">
-      <label class="form-label">Company</label>
-      <input type="text" class="form-control" name="company" placeholder="Your company name">
-     </div>
-     <div class="form-group">
-      <label class="form-label">Message *</label>
-      <textarea class="form-control" name="message" placeholder="Tell us about your requirements (product type, quantity, target market, etc.)" required></textarea>
-     </div>
-     <button type="submit" class="btn-submit">Send Message</button>
-    </form>
-    <div style="padding:20px;background:var(--gray-50);border-radius:var(--radius-lg);font-size:13px;color:var(--gray-600);margin-top:20px">
-     <strong style="color:var(--gray-800)">Tip for faster response:</strong>
-     Include your WhatsApp number and target quantity so we can prepare the best quote for you.
-    </div>
-   </div>
-   <div>
-    <span class="section-label">Contact Info</span>
-    <h2 class="heading-2" style="margin-bottom:24px" data-i="contact_info">Get In Touch</h2>
-    <div style="display:flex;flex-direction:column;gap:24px">
-     <div class="card" style="padding:24px"><h3>Email</h3><p style="margin-top:4px;font-size:16px;color:var(--primary);font-weight:600">1073703112@qq.com</p></div>
+          <div>
+        <span class="section-label">Send Inquiry</span>
+        <h2 class="heading-2" style="margin-bottom:20px">Submit Your Requirements</h2>
+        <form action="https://formsubmit.co/1073703112@qq.com" method="POST" class="contact-form">
+          <input type="hidden" name="_subject" value="New Inquiry from orion-ssd-memory.com">
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Full Name <span class="required">*</span></label>
+              <input type="text" class="form-control" name="Name" required placeholder="John Smith">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Company <span class="required">*</span></label>
+              <input type="text" class="form-control" name="Company" required placeholder="Your Company">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Email <span class="required">*</span></label>
+              <input type="email" class="form-control" name="Email" required placeholder="john@company.com">
+            </div>
+            <div class="form-group">
+              <label class="form-label">WhatsApp / Phone</label>
+              <input type="tel" class="form-control" name="WhatsApp" placeholder="+1 234 567 8900">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Product Interest <span class="required">*</span></label>
+              <select class="form-control" name="Product Interest" required>
+                <option value="">Select product...</option>
+                <option>NVMe SSD</option><option>SATA SSD</option><option>Memory DDR4/DDR5</option>
+                <option>Industrial SSD</option><option>OEM/ODM Service</option><option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Target Quantity</label>
+              <input type="number" class="form-control" name="Quantity" placeholder="e.g. 500 pcs">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Requirements Details <span class="required">*</span></label>
+            <textarea class="form-control" name="Message" required placeholder="Describe: capacities, timeline, certifications needed, target market..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Send Inquiry</button>
+          <p style="font-size:12px;color:var(--gray-500);text-align:center;margin-top:8px">We reply to all inquiries within 24 hours. Your data is private.</p>
+        </form>
+      </div>            <div class="card" style="padding:24px"><h3>Email</h3>le="margin-top:4px;font-size:16px;color:var(--primary);font-weight:600">1073703112@qq.com</p></div>
      <div class="card" style="padding:24px"><h3>WhatsApp</h3><p style="margin-top:4px;font-size:16px;color:var(--primary);font-weight:600">+86 156 8305 2138</p></div>
      <div class="card" style="padding:24px"><h3>Factory Address</h3><p style="margin-top:4px;color:var(--gray-600)">Building 1, Qixin Tech Park, No.18 Jinxiu Middle Road, Pingshan District, Shenzhen, China</p></div>
      <div class="card" style="padding:24px"><h3>Business Hours</h3><p style="margin-top:4px;color:var(--gray-600)">Monday - Friday: 9:00 - 18:00 (CST, UTC+8)<br>Saturday: 9:00 - 12:00</p></div>
@@ -150,6 +166,9 @@
 <script src="js/i18n.js"></script>
 </body>
 </html>
+
+
+
 
 
 

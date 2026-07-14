@@ -6,7 +6,7 @@
 </defs>
 <rect width="400" height="300" rx="12" fill="url(#bg3)"/>
 <text x="200" y="35" font-family="Arial" font-size="16" font-weight="bold" fill="#1a365d" text-anchor="middle">ORION S100 SATA SSD</text>
-<text x="200" y="55" font-family="Arial" font-size="11" fill="#6b7280" text-anchor="middle">2.5-inch Form Factor</text>
+<text x="200" y="55" font-family="Arial" font-size="11" fill="#6b7280" text-anchor="middle">2.5-inch | Black 10-Layer PCB</text>
 <rect x="50" y="70" width="300" height="140" rx="8" fill="url(#case)"/>
 <rect x="50" y="70" width="300" height="25" rx="8" fill="url(#gld2)"/>
 <text x="200" y="87" font-family="Arial" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="3">ORION SATA SSD</text>
@@ -18,7 +18,8 @@
 <rect x="135" y="95" width="70" height="50" rx="2" fill="#222"/><text x="170" y="125" font-family="Arial" font-size="7" fill="#666" text-anchor="middle">NAND Flash</text>
 <rect x="215" y="95" width="70" height="50" rx="2" fill="#222"/><text x="250" y="125" font-family="Arial" font-size="7" fill="#666" text-anchor="middle">NAND Flash</text>
 <rect x="50" y="225" width="300" height="1" fill="#cbd5e1"/>
-<text x="200" y="243" font-family="Arial" font-size="12" font-weight="bold" fill="#1a365d" text-anchor="middle">SATA III 6Gb/s</text>
+<text x="200" y="243" font-family="Arial" font-size="12" font-weight="bold" fill="#1a365d" text-anchor="middle">SATA III 6Gb/s | 10-Layer PCB</text>
 <text x="200" y="260" font-family="Arial" font-size="10" fill="#6b7280" text-anchor="middle">Read: 560 MB/s | Write: 530 MB/s | Reliable TLC NAND</text>
 <text x="200" y="275" font-family="Arial" font-size="10" fill="#6b7280" text-anchor="middle">120GB / 240GB / 480GB / 960GB / 1.92TB</text>
 </svg>
+

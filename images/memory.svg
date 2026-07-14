@@ -6,7 +6,7 @@
 </defs>
 <rect width="400" height="300" rx="12" fill="url(#bg4)"/>
 <text x="200" y="35" font-family="Arial" font-size="16" font-weight="bold" fill="#1a365d" text-anchor="middle">ORION M100 DDR5 Memory</text>
-<text x="200" y="55" font-family="Arial" font-size="11" fill="#6b7280" text-anchor="middle">Desktop UDIMM Module</text>
+<text x="200" y="55" font-family="Arial" font-size="11" fill="#6b7280" text-anchor="middle">Desktop UDIMM | Black 10-Layer PCB</text>
 <rect x="50" y="70" width="300" height="30" rx="4" fill="url(#gld3)"/>
 <text x="200" y="89" font-family="Arial" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="3">ORION DDR5</text>
 <rect x="55" y="100" width="290" height="90" rx="2" fill="url(#hs)"/>
@@ -19,7 +19,8 @@
 <rect x="50" y="195" width="300" height="18" rx="2" fill="#d4a800"/>
 <rect x="85" y="213" width="230" height="10" rx="1" fill="#d4a800"/>
 <rect x="50" y="225" width="300" height="1" fill="#cbd5e1"/>
-<text x="200" y="243" font-family="Arial" font-size="12" font-weight="bold" fill="#1a365d" text-anchor="middle">DDR5-6000 | CL30-36-36</text>
+<text x="200" y="243" font-family="Arial" font-size="12" font-weight="bold" fill="#1a365d" text-anchor="middle">DDR5-6000 | CL30-36-36 | 10-Layer PCB</text>
 <text x="200" y="260" font-family="Arial" font-size="10" fill="#6b7280" text-anchor="middle">32GB (2x16GB) Kit | 1.1V | XMP 3.0 Ready</text>
 <text x="200" y="275" font-family="Arial" font-size="10" fill="#6b7280" text-anchor="middle">Compatible with Intel & AMD Platforms</text>
 </svg>
+

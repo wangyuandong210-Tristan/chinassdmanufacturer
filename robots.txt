@@ -1,3 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
-Sitemap: https://chinassdmanufacturer.com/sitemap.xml
+Sitemap: https://orion-ssd-memory.com/sitemap.xml
+

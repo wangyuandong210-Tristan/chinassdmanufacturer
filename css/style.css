@@ -1,4 +1,4 @@
-﻿/* CSS Reset & Variables */
+﻿.nav-lang{display:flex;align-items:center;gap:2px;margin-left:12px;padding-left:12px;border-left:1px solid var(--gray-300)}.lang-btn{padding:4px 8px;border-radius:4px;font-size:11px;font-weight:600;cursor:pointer;color:var(--gray-500);text-decoration:none}.lang-btn:hover{color:var(--primary);background:var(--primary-light)}.lang-btn.active{color:var(--accent);background:rgba(201,169,110,0.1)}/* CSS Reset & Variables */
 :root{--primary:#1a365d;--primary-dark:#0f2440;--primary-light:#ebf4ff;--accent:#c9a96e;--accent-hover:#b8860b;--dark:#0a1628;--gray-50:#f8f9fa;--gray-100:#f1f3f5;--gray-200:#e9ecef;--gray-300:#dee2e6;--gray-400:#ced4da;--gray-500:#adb5bd;--gray-600:#6c757d;--gray-700:#495057;--gray-800:#343a40;--gray-900:#212529;--white:#ffffff;--success:#2d6a4f;--radius:8px;--radius-lg:16px;--shadow:0 2px 16px rgba(0,0,0,0.08);--shadow-lg:0 8px 40px rgba(0,0,0,0.12);--shadow-xl:0 16px 48px rgba(0,0,0,0.15);--transition:0.25s ease;--max-width:1200px}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -165,5 +165,6 @@ footer a:hover{color:var(--accent)!important}
 .whatsapp-float .whatsapp-btn{box-shadow:0 4px 20px rgba(37,211,102,0.4)}
 @media(max-width:992px){.hero-grid{grid-template-columns:1fr}.hero-content{text-align:center}.hero-actions,.hero-stats{justify-content:center}.footer-grid{grid-template-columns:1fr 1fr}.stats-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:768px){.header-inner{height:60px}.nav-menu{display:none}.mobile-toggle{display:flex}.nav-menu.open{display:flex;flex-direction:column;position:absolute;top:60px;left:0;right:0;background:var(--white);border-bottom:1px solid var(--gray-200);padding:16px;box-shadow:var(--shadow)}.hero{padding:100px 0 60px}.section{padding:60px 0}.grid-2,.grid-3,.grid-4,.footer-grid,.form-row{grid-template-columns:1fr}}
+
 
 

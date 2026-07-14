@@ -51,15 +51,15 @@
   <a href="/" class="logo"><img src="images/orion-logo.svg" alt="ORION" style="height:40px"></a>
   <nav>
    <ul class="nav-menu" id="navMenu">
-    <li><a href="/" class="active">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="odm.html">OEM/ODM</a></li>
-    <li><a href="blog/index.html">Blog</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">Get Quote</a></li>
+    <li><a href="/" data-i="nav_home" class="active">Home</a></li>
+    <li><a href="products.html" data-i="nav_products">Products</a></li>
+    <li><a href="about.html" data-i="nav_about">About Us</a></li>
+    <li><a href="odm.html" data-i="nav_odm">OEM/ODM</a></li>
+    <li><a href="blog/index.html" data-i="nav_blog">Blog</a></li>
+    <li><a href="contact.html" data-i="nav_contact">Contact</a></li>
+    <li class="nav-cta"><a href="contact.html" data-i="nav_quote" class="btn btn-primary btn-sm">Get Quote</a></li>
    
-      <li class="nav-cta" style="margin-left:4px"><a href="zh/index.html" class="btn btn-sm btn-outline" style="background:rgba(201,169,110,0.1);color:var(--accent);border-color:rgba(201,169,110,0.3);font-weight:600;font-size:12px">中 / EN</a></li></ul>
+      </ul>
   </nav>
   <button class="mobile-toggle" onclick="document.getElementById('navMenu').classList.toggle('open')">
    <span></span><span></span><span></span>
@@ -71,18 +71,18 @@
  <div class="container">
   <div class="hero-grid">
    <div class="hero-content">
-    <div class="hero-badge">OEM/ODM Manufacturing Partner</div>
-    <h1 class="display-1">Your Trusted OEM Partner for SSD &amp; Memory</h1>
-    <p class="body-lg">13+ years of OEM/ODM expertise. We help businesses launch their own SSD and memory brands with custom branding, firmware, and packaging solutions.</p>
+    <div class="hero-badge" data-i="hero_badge">OEM/ODM Manufacturing Partner</div>
+    <h1 class="display-1" data-i="hero_title">Your Trusted OEM Partner for SSD &amp; Memory</h1>
+    <p class="body-lg" data-i="hero_desc">13+ years of OEM/ODM expertise. We help businesses launch their own SSD and memory brands with custom branding, firmware, and packaging solutions.</p>
     <div class="hero-actions">
-     <a href="contact.html" class="btn btn-primary btn-lg">Request Quote</a>
+     <a href="contact.html" class="btn btn-primary btn-lg" data-i="hero_quote">Request Quote</a>
      <a href="products.html" class="btn btn-outline btn-lg">OEM Capabilities</a>
     </div>
     <div class="hero-stats">
      <div class="hero-stat"><h3>10+</h3><p>Years Experience</p></div>
-     <div class="hero-stat"><h3>50M+</h3><p>Units Shipped</p></div>
-     <div class="hero-stat"><h3>500+</h3><p>B2B Partners</p></div>
-     <div class="hero-stat"><h3>50+</h3><p>Export Countries</p></div>
+     <div class="hero-stat"><h3 data-i="stat_units">50M+</h3><p data-i="stat_units_l">Units Shipped</p></div>
+     <div class="hero-stat"><h3 data-i="stat_clients">500+</h3><p data-i="stat_clients_l">B2B Partners</p></div>
+     <div class="hero-stat"><h3 data-i="stat_countries">50+</h3><p data-i="stat_countries_l">Export Countries</p></div>
     </div>
    </div>
    <div class="hero-image">
@@ -103,9 +103,9 @@
 <section class="section">
  <div class="container">
   <div class="section-header text-center">
-   <span class="section-label">Product Categories</span>
-   <h2 class="heading-1">Comprehensive Storage Solutions</h2>
-   <p class="body-md">From consumer SSDs to industrial-grade memory, we cover all your storage needs</p>
+   <span class="section-label" data-i="section_products">Product Categories</span>
+   <h2 class="heading-1" data-i="section_products_t">Comprehensive Storage Solutions</h2>
+   <p class="body-md" data-i="section_products_d">From consumer SSDs to industrial-grade memory, we cover all your storage needs</p>
   </div>
   <div class="grid-4">
    <div class="card text-center" style="padding:24px">
@@ -272,11 +272,11 @@
    <div class="footer-column">
     <h4>Company</h4>
     <ul>
-     <li><a href="about.html">About Us</a></li>
+     <li><a href="about.html" data-i="nav_about">About Us</a></li>
      <li><a href="about.html#factory">Factory Tour</a></li>
      <li><a href="about.html#cert">Certifications</a></li>
-     <li><a href="blog/index.html">Blog</a></li>
-     <li><a href="contact.html">Contact</a></li>
+     <li><a href="blog/index.html" data-i="nav_blog">Blog</a></li>
+     <li><a href="contact.html" data-i="nav_contact">Contact</a></li>
     </ul>
    </div>
    <div class="footer-column">
@@ -301,6 +301,7 @@
 <script>document.addEventListener('scroll',function(){document.querySelector('.site-header').classList.toggle('scrolled',window.scrollY>40)})</script>
 </body>
 </html>
+
 
 
 

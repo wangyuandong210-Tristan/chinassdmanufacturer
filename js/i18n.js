@@ -32,7 +32,7 @@
       prod_ddr5:"ORION DDR5 Memory Module",prod_ddr5_s:"8GB / 16GB / 32GB per module | Freq: 4800-7200MHz | XMP 3.0, 1.1V, heat spreader optional",
       prod_ddr4:"ORION DDR4 Memory Module",prod_ddr4_s:"4GB / 8GB / 16GB / 32GB per module | Freq: 2666-3600MHz | 1.2V, compatible with all major platforms",
       prod_ind_sata:"Industrial SATA SSD",prod_ind_s:"32GB - 512GB | M.2 / mSATA / 2.5 inch | SLC/MLC/TLC options, high TBW",
-      prod_industrial:"Industrial",prod_oem:"Custom OEM Solutions",prod_oem_s:"Custom labeling, retail packaging, firmware customization | BTO specifications | All certifications included"
+      prod_industrial:"Industrial",prod_oem:"Custom OEM Solutions",prod_oem_s:"Custom labeling, retail packaging, firmware customization | BTO specifications | All certifications included",
       hero_stat_yr:"Years in Industry",hero_stat_fa:"Factory Area",
       cat_consumer:"Consumer SSD",cat_consumer_d:"NVMe PCIe 4.0 & SATA III. 256GB-2TB.",
       cat_enterprise_d:"Data center grade. 512GB-8TB.",
